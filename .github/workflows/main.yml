@@ -10,7 +10,7 @@ jobs:
     - name: Mirror + trigger CI
       uses: SvanBoxel/gitlab-mirror-and-ci-action@master
       with:
-        args: "https://gitlab.ycdev.nl/youngcapital/nyc-icons"
+        args: "https://gitlab.ycdev.nl/edwin/test-github-mirror"
       env:
         GITLAB_HOSTNAME: "gitlab.ycdev.nl"
         GITLAB_USERNAME: "edwin"
