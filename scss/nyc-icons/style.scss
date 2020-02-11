@@ -1,0 +1,10 @@
+@import 'utilities';
+
+$env: 'development' !default;
+$font-path: './fonts/nyc-icon' !default;
+
+@if $env == 'production' {
+  @include font-face('nyc-icon', $font-path);
+}
+
+@import 'icons';

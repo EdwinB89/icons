@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>uEA20-menu-hamburger</title>
+    <desc>Created with Sketch.</desc>
+    <g id="uEA20-menu-hamburger" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M3,8 L21,8 C21.5522847,8 22,7.55228475 22,7 C22,6.44771525 21.5522847,6 21,6 L3,6 C2.44771525,6 2,6.44771525 2,7 C2,7.55228475 2.44771525,8 3,8 Z M21,16 L3,16 C2.44771525,16 2,16.4477153 2,17 C2,17.5522847 2.44771525,18 3,18 L21,18 C21.5522847,18 22,17.5522847 22,17 C22,16.4477153 21.5522847,16 21,16 Z M21,11 L3,11 C2.44771525,11 2,11.4477153 2,12 C2,12.5522847 2.44771525,13 3,13 L21,13 C21.5522847,13 22,12.5522847 22,12 C22,11.4477153 21.5522847,11 21,11 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

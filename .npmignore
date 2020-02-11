@@ -1,0 +1,9 @@
+# Ignore everything
+*
+*/
+
+# but the scss folder and npmignore
+!.npmignore
+!/scss/**/*
+!/build/**/*
+!/sprites/**/*

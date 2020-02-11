@@ -1,0 +1,15 @@
+// scss-lint:disable all
+%<%= className %> {
+  display: inline-block;
+  font-family: "<%= fontName %>";
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+  line-height: 1;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+<% _.each(glyphs, function(glyph) { %>
+%<%= className %>-<%= glyph.name %> { content: "\<%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %>"; }<% }); %>
+// scss-lint:enable all

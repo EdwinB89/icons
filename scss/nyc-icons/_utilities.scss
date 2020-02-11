@@ -1,0 +1,22 @@
+// scss-lint:disable all
+
+// font-face
+// Taken from Bourbon
+// @param $font-family: Name of the font
+// @param $file-path: Path to font (filename without extension)
+// @param $weight: Weight of font (default: normal)
+// @param $style: Style of font (default: normal)
+// @see https://github.com/thoughtbot/bourbon/blob/3dca2ecccaaa3db9cea8d74c8221fbde7e6284d8/app/assets/stylesheets/css3/_font-face.scss
+@mixin font-face($font-family, $file-path, $weight: normal, $style: normal) {
+  @font-face {
+    font-family: $font-family;
+    font-weight: $weight;
+    font-style: $style;
+    font-display: auto;
+
+    src: url('#{$file-path}.eot');
+    src: url('#{$file-path}.woff2') format('woff2'),
+         url('#{$file-path}.woff') format('woff'),
+         url('#{$file-path}.ttf') format('truetype');
+  }
+}

@@ -1,0 +1,185 @@
+// scss-lint:disable all
+.nyc-icon::before {
+  @extend %nyc-icon;
+}
+
+.nyc-icon--lg {
+  font-size: 1.3333333333333333em;
+  line-height: .75em;
+  vertical-align: -15%;
+}
+
+.nyc-icon-2x { font-size: 2em; }
+.nyc-icon-3x { font-size: 3em; }
+.nyc-icon-4x { font-size: 4em; }
+.nyc-icon-5x { font-size: 5em; }
+.nyc-icon-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+.nyc-icon-arrow-down-filled::before { content: "\EA01"; }
+.nyc-icon-arrow-down-outlined::before { content: "\EA02"; }
+.nyc-icon-arrow-down::before { content: "\EA03"; }
+.nyc-icon-arrow-left::before { content: "\EA04"; }
+.nyc-icon-arrow-right::before { content: "\EA05"; }
+.nyc-icon-arrow-up-filled::before { content: "\EA06"; }
+.nyc-icon-arrow-up-outlined::before { content: "\EA07"; }
+.nyc-icon-arrow-up::before { content: "\EA08"; }
+.nyc-icon-avatar::before { content: "\EA09"; }
+.nyc-icon-briefcase::before { content: "\EA0A"; }
+.nyc-icon-calendar::before { content: "\EA0B"; }
+.nyc-icon-chat::before { content: "\EA0C"; }
+.nyc-icon-check::before { content: "\EA0D"; }
+.nyc-icon-close-cross::before { content: "\EA0E"; }
+.nyc-icon-cropper::before { content: "\EA0F"; }
+.nyc-icon-delete::before { content: "\EA10"; }
+.nyc-icon-edit::before { content: "\EA11"; }
+.nyc-icon-education::before { content: "\EA12"; }
+.nyc-icon-favorite-empty::before { content: "\EA13"; }
+.nyc-icon-favorite-filled::before { content: "\EA14"; }
+.nyc-icon-file::before { content: "\EA15"; }
+.nyc-icon-flat-boxes::before { content: "\EA16"; }
+.nyc-icon-flat-desk-chair::before { content: "\EA17"; }
+.nyc-icon-flat-headset::before { content: "\EA18"; }
+.nyc-icon-flat-laptop::before { content: "\EA19"; }
+.nyc-icon-flat-planning::before { content: "\EA1A"; }
+.nyc-icon-flat-street::before { content: "\EA1B"; }
+.nyc-icon-home::before { content: "\EA1C"; }
+.nyc-icon-location::before { content: "\EA1D"; }
+.nyc-icon-maker-yc::before { content: "\EA1E"; }
+.nyc-icon-matching-empty::before { content: "\EA1F"; }
+.nyc-icon-menu-hamburger::before { content: "\EA20"; }
+.nyc-icon-method-draw-image::before { content: "\EA21"; }
+.nyc-icon-network-facebook-inverted::before { content: "\EA22"; }
+.nyc-icon-network-facebook::before { content: "\EA23"; }
+.nyc-icon-network-google-inverted::before { content: "\EA24"; }
+.nyc-icon-network-google::before { content: "\EA25"; }
+.nyc-icon-network-insta-inverted::before { content: "\EA26"; }
+.nyc-icon-network-insta::before { content: "\EA27"; }
+.nyc-icon-network-linkedin-inverted::before { content: "\EA28"; }
+.nyc-icon-network-linkedin::before { content: "\EA29"; }
+.nyc-icon-network-rss-inverted::before { content: "\EA2A"; }
+.nyc-icon-network-rss::before { content: "\EA2B"; }
+.nyc-icon-network-twitter-inverted::before { content: "\EA2C"; }
+.nyc-icon-network-twitter::before { content: "\EA2D"; }
+.nyc-icon-network-whatsapp-inverted::before { content: "\EA2E"; }
+.nyc-icon-network-xing-inverted::before { content: "\EA2F"; }
+.nyc-icon-network-xing::before { content: "\EA30"; }
+.nyc-icon-network-youtube-inverted::before { content: "\EA31"; }
+.nyc-icon-network-youtube::before { content: "\EA32"; }
+.nyc-icon-notification::before { content: "\EA33"; }
+.nyc-icon-operator-minus::before { content: "\EA34"; }
+.nyc-icon-operator-plus::before { content: "\EA35"; }
+.nyc-icon-pause::before { content: "\EA36"; }
+.nyc-icon-phrase::before { content: "\EA37"; }
+.nyc-icon-play::before { content: "\EA38"; }
+.nyc-icon-round-info::before { content: "\EA39"; }
+.nyc-icon-search::before { content: "\EA3A"; }
+.nyc-icon-shape::before { content: "\EA3B"; }
+.nyc-icon-share-facebook-colored::before { content: "\EA3C"; }
+.nyc-icon-share-facebook-stripped::before { content: "\EA3D"; }
+.nyc-icon-share-facebook::before { content: "\EA3E"; }
+.nyc-icon-share-link::before { content: "\EA3F"; }
+.nyc-icon-share-linkedin-colored::before { content: "\EA40"; }
+.nyc-icon-share-linkedin::before { content: "\EA41"; }
+.nyc-icon-share-mail-inverted::before { content: "\EA42"; }
+.nyc-icon-share-mail::before { content: "\EA43"; }
+.nyc-icon-share-print-inverted::before { content: "\EA44"; }
+.nyc-icon-share-print::before { content: "\EA45"; }
+.nyc-icon-share-twitter-colored::before { content: "\EA46"; }
+.nyc-icon-share-twitter-stripped::before { content: "\EA47"; }
+.nyc-icon-share-twitter::before { content: "\EA48"; }
+.nyc-icon-time::before { content: "\EA49"; }
+.nyc-icon-tip::before { content: "\EA4A"; }
+.nyc-icon-toast-check::before { content: "\EA4B"; }
+.nyc-icon-toast-error::before { content: "\EA4C"; }
+.nyc-icon-toast-information::before { content: "\EA4D"; }
+.nyc-icon-toast-warning::before { content: "\EA4E"; }
+.nyc-icon-video::before { content: "\EA4F"; }
+.nyc-icon-fullscreen::before { content: "\EA50"; }
+.nyc-icon-download::before { content: "\EA51"; }
+.nyc-icon-more-options::before { content: "\EA52"; }
+.nyc-icon-graph-line-up::before { content: "\EA53"; }
+.nyc-icon-phone::before { content: "\EA54"; }
+.nyc-icon-square::before { content: "\EA55"; }
+.nyc-icon-horeca::before { content: "\EA56"; }
+.nyc-icon-globe::before { content: "\EA57"; }
+.nyc-icon-arrow-long::before { content: "\EA58"; }
+.nyc-icon-cross::before { content: "\EA59"; }
+.nyc-icon-check-filled::before { content: "\EA60"; }
+.nyc-icon-time-filled::before { content: "\EA61"; }
+.nyc-icon-piggybank::before { content: "\EA62"; }
+.nyc-icon-office::before { content: "\EA63"; }
+.nyc-icon-paper::before { content: "\EA64"; }
+.nyc-icon-arrow-down-slim::before { content: "\EA65"; }
+.nyc-icon-arrow-up-slim::before { content: "\EA66"; }
+.nyc-icon-operator-plus-slim::before { content: "\EA67"; }
+.nyc-icon-copy::before { content: "\EA68"; }
+.nyc-icon-sun::before { content: "\EA69"; }
+.nyc-icon-operator-plus-slim-filled::before { content: "\EA70"; }
+.nyc-icon-edit-filled::before { content: "\EA71"; }
+.nyc-icon-money::before { content: "\EA72"; }
+.nyc-icon-sending::before { content: "\EA73"; }
+.nyc-icon-validation-success::before { content: "\EA74"; }
+.nyc-icon-validation-error::before { content: "\EA75"; }
+.nyc-icon-arrow-down-long::before { content: "\EC01"; }
+.nyc-icon-arrow-left-long::before { content: "\EC02"; }
+.nyc-icon-arrow-left-slim::before { content: "\EC03"; }
+.nyc-icon-arrow-right-long::before { content: "\EC04"; }
+.nyc-icon-arrow-right-slim::before { content: "\EC05"; }
+.nyc-icon-arrow-up-long::before { content: "\EC06"; }
+.nyc-icon-bell-slash::before { content: "\EC07"; }
+.nyc-icon-bolt::before { content: "\EC08"; }
+.nyc-icon-drag::before { content: "\EC09"; }
+.nyc-icon-euro-circle::before { content: "\EC0A"; }
+.nyc-icon-exclamation-triangle-filled::before { content: "\EC0B"; }
+.nyc-icon-external-link-alt::before { content: "\EC0C"; }
+.nyc-icon-eye::before { content: "\EC0D"; }
+.nyc-icon-filter::before { content: "\EC0E"; }
+.nyc-icon-info-circle-filled::before { content: "\EC0F"; }
+.nyc-icon-map::before { content: "\EC10"; }
+.nyc-icon-minus-circle-filled::before { content: "\EC11"; }
+.nyc-icon-minus-circle::before { content: "\EC12"; }
+.nyc-icon-network-whatsapp::before { content: "\EC13"; }
+.nyc-icon-paperclip::before { content: "\EC14"; }
+.nyc-icon-pause-circle::before { content: "\EC15"; }
+.nyc-icon-play-circle::before { content: "\EC16"; }
+.nyc-icon-play-outline::before { content: "\EC17"; }
+.nyc-icon-plus-circle::before { content: "\EC18"; }
+.nyc-icon-send::before { content: "\EC19"; }
+.nyc-icon-sliders::before { content: "\EC1A"; }
+.nyc-icon-sort-amount-down::before { content: "\EC1B"; }
+.nyc-icon-sort::before { content: "\EC1C"; }
+.nyc-icon-star-filled::before { content: "\EC1D"; }
+.nyc-icon-star::before { content: "\EC1E"; }
+.nyc-icon-thumbs-down::before { content: "\EC1F"; }
+.nyc-icon-thumbs-up::before { content: "\EC20"; }
+.nyc-icon-share-whatsapp::before { content: "\EC21"; }
+.nyc-icon-upload::before { content: "\EC22"; }
+.nyc-icon-user::before { content: "\EC23"; }
+.nyc-icon-calender::before { content: "\ED01"; }
+.nyc-icon-circle::before { content: "\ED02"; }
+.nyc-icon-expand-from-corner::before { content: "\ED03"; }
+.nyc-icon-file-bookmark-alt::before { content: "\ED04"; }
+.nyc-icon-file-check-alt::before { content: "\ED05"; }
+.nyc-icon-file-check::before { content: "\ED06"; }
+.nyc-icon-file-times::before { content: "\ED07"; }
+.nyc-icon-fire::before { content: "\ED08"; }
+.nyc-icon-frown::before { content: "\ED09"; }
+.nyc-icon-key-skeleton-alt::before { content: "\ED0A"; }
+.nyc-icon-navigator::before { content: "\ED0B"; }
+.nyc-icon-padlock::before { content: "\ED0C"; }
+.nyc-icon-pen::before { content: "\ED0D"; }
+.nyc-icon-process::before { content: "\ED0E"; }
+.nyc-icon-exchange-alt::before { content: "\ED0F"; }
+.nyc-icon-circle-filled::before { content: "\ED10"; }
+.nyc-icon-crosshairs::before { content: "\ED11"; }
+.nyc-icon-comment-alt-dots::before { content: "\ED12"; }
+.nyc-icon-circle-e::before { content: "\ED13"; }
+.nyc-icon-step-forward::before { content: "\ED14"; }
+.nyc-icon-refresh::before { content: "\ED15"; }
+.nyc-icon-sync::before { content: "\ED16"; }
+.nyc-icon-list-ul::before { content: "\ED17"; }
+.nyc-icon-users-alt::before { content: "\ED18"; }
+// scss-lint:enable all
