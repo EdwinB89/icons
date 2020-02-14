@@ -10,7 +10,7 @@ jobs:
     - name: Mirror + trigger CI
       uses: SvanBoxel/gitlab-mirror-and-ci-action@master
       with:
-        args: "https://${{ secrets.GITLAB_HOSTNAME }}/${{ secrets.GITLAB_USERNAME }}/${{ secrets.GITLAB_PROJECT_NAME }}"
+        args: "https://${{ secrets.GITLAB_USERNAME }}@${{ secrets.GITLAB_HOSTNAME }}/${{ secrets.GITLAB_USERNAME }}/${{ secrets.GITLAB_PROJECT_NAME }}"
       env:
         GITLAB_HOSTNAME: ${{ secrets.GITLAB_HOSTNAME }}
         GITLAB_USERNAME: ${{ secrets.GITLAB_USERNAME }}
