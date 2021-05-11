@@ -30,7 +30,7 @@
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sass-variables": "^1.2.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "path": "^0.12.7",
     "through2": "^3.0.1"
   }
