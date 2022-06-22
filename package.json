@@ -20,7 +20,7 @@
     "build": "yarn start --production"
   },
   "devDependencies": {
-    "async": "^3.0.1",
+    "async": "^3.2.2",
     "dart-sass": "^1.25.0",
     "gulp": "^4.0.0",
     "gulp-consolidate": "^0.2.0",
